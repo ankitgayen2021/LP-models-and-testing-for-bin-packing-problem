@@ -29,15 +29,15 @@ and $y_k$ indicates whether bin $k$ is used.
 $$
 \begin{aligned}
 \min \quad
-    & \sum_{k=1}^{K} y_k \\[4pt]
+    & \sum_{k=1}^{K} y_k \\
 \text{subject to} \quad
     & \sum_{k=1}^{K} x_{ik} \ge b_i,
-    && i=1,\ldots,m, \\[4pt]
+    && i=1,\ldots,m, \\
     & \sum_{i=1}^{m} w_i x_{ik} \le W y_k,
-    && k=1,\ldots,K, \\[4pt]
+    && k=1,\ldots,K, \\
     & y_k \in \{0,1\},
-    && k=1,\ldots,K, \\[4pt]
-    & x_{ik} \in \mathbb{Z}_{\ge 0},
+    && k=1,\ldots,K, \\
+    & x_{ik} \in \mathbb{Z}_{\geq 0},
     && i=1,\ldots,m,\quad k=1,\ldots,K.
 \end{aligned}
 $$
@@ -62,11 +62,11 @@ The variable $\lambda_p$ counts the bins using pattern $p$.
 $$
 \begin{aligned}
 \min \quad
-    & \sum_{p \in P_{\max}} \lambda_p \\[4pt]
+    & \sum_{p \in P_{\max}} \lambda_p \\
 \text{subject to} \quad
     & \sum_{p \in P_{\max}} a_i^p \lambda_p \ge b_i,
-    && i=1,\ldots,m, \\[4pt]
-    & \lambda_p \in \mathbb{Z}_{\ge 0},
+    && i=1,\ldots,m, \\
+    & \lambda_p \in \mathbb{Z}_{\geq 0},
     && p \in P_{\max}.
 \end{aligned}
 $$
@@ -93,15 +93,15 @@ $$
 \min \quad
     & z \\[4pt]
 \text{subject to} \quad
-    & \sum_{(0,e)\in A'} x_{0e}-z=0, \\[4pt]
+    & \sum_{(0,e)\in A'} x_{0e}-z=0, \\
     & \sum_{(d,v)\in A'} x_{dv}
       -\sum_{(v,e)\in A'} x_{ve}=0,
-    && v=1,\ldots,W-1, \\[4pt]
-    & z-\sum_{(d,W)\in A'} x_{dW}=0, \\[4pt]
+    && v=1,\ldots,W-1, \\
+    & z-\sum_{(d,W)\in A'} x_{dW}=0, \\
     & \sum_{(d,d+w_i)\in A'} x_{d,d+w_i}\ge b_i,
-    && i=1,\ldots,m, \\[4pt]
+    && i=1,\ldots,m, \\
     & x_{de}\in\mathbb{Z}_{\ge 0},
-    && (d,e)\in A', \\[4pt]
+    && (d,e)\in A', \\
     & z\in\mathbb{Z}_{\ge 0}.
 \end{aligned}
 $$
