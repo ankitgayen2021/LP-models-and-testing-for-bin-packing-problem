@@ -91,7 +91,7 @@ represents one bin.
 $$
 \begin{aligned}
 \min \quad
-    & z \\[4pt]
+    & z \\
 \text{subject to} \quad
     & \sum_{(0,e)\in A'} x_{0e}-z=0, \\
     & \sum_{(d,v)\in A'} x_{dv}
