@@ -9,6 +9,7 @@ This repository of the following items:
 - The codefile named `code.py` containing the implementation of the models, file-reading/parsing and helper functions among other things as will be explained later
 - $4$ benchmark folders named `Falkenauer_U`,`Falkenauer_T`,`many_paterns_unit_demand` and `near_half_widths`
 - This `README.md` markdown file
+- A `LICENSE` file
 ## Problem(s) description
 **Bin Packing Problem(BPP):** Given $n$ items, each having a integer size $w_j$($j = 1, \ldots, m$) and an unlimited supply of identical bins each with capacity $W$, determine the minimum number of bins required to fit all the items, subject to not surpassing the bins' capacities.  
 
