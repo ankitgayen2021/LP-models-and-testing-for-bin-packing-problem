@@ -5,10 +5,9 @@ This `README.md` file and other stuff has been inspired from [dr. Maxence Delorm
 
 Other references have been put in the experimental evaluation report available at the end and in-parts(one to be precise) in another section.
 ## Contents
-The main folder consists of the following items:
+This repository of the following items:
 - The codefile named `code.py` containing the implementation of the models, file-reading/parsing and helper functions among other things as will be explained later
 - $4$ benchmark folders named `Falkenauer_U`,`Falkenauer_T`,`many_paterns_unit_demand` and `near_half_widths`
-- A `.venv` virtual environment for interpreting the python code with all necessary packages loaded.
 - This `README.md` markdown file
 ## Problem(s) description
 **Bin Packing Problem(BPP):** Given $n$ items, each having a integer size $w_j$($j = 1, \ldots, m$) and an unlimited supply of identical bins each with capacity $W$, determine the minimum number of bins required to fit all the items, subject to not surpassing the bins' capacities.  
@@ -132,7 +131,7 @@ All instance files inside the corresponding benchmark folders are given in the f
 - For each item $j$($j = 1,\ldots, m$) 
     - Its size / width($w_i$)
 ## Usage
-Make sure you have Python's **NumPy** and **SciPy** installed -- alternatively one can use the provided `.venv` virtual environment. 
+Make sure you have Python's **NumPy** and **SciPy** installed. 
 
 To run my code on all the instances on any benchmark folder type the following in the terminal, in the same directory as the code and the folders: 
 ~~~sh
